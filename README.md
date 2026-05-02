@@ -1,50 +1,50 @@
-# Appium Curso
+# Appium Course
 
-Este projeto é um framework de automação de testes mobile utilizando **Appium**, **WebdriverIO** e **TypeScript**.
+This project is a mobile test automation framework using **Appium**, **WebdriverIO**, and **TypeScript**.
 
-## Estrutura do Projeto
+## Project Structure
 
-- `apps/`: Contém o aplicativo Android de exemplo (`android.wdio.native.app.v2.2.0.apk`).
-- `scripts/`: Scripts utilitários para limpeza de processos e inicialização do ambiente.
+- `apps/`: Contains the sample Android application (`android.wdio.native.app.v2.2.0.apk`).
+- `scripts/`: Utility scripts for process cleanup and environment setup.
 - `tests/`: 
-  - `pageobjects/`: Implementação do padrão Page Object.
-  - `specs/`: Casos de teste (Login, Forms, Swipe).
-- `wdio.conf.ts`: Configuração principal do WebdriverIO.
+  - `pageobjects/`: Implementation of the Page Object Pattern.
+  - `specs/`: Test cases (Login, Forms, Swipe).
+- `wdio.conf.ts`: Main WebdriverIO configuration file.
 
-## Pré-requisitos
+## Prerequisites
 
-- Node.js instalado.
-- Android Studio / Emulator configurado.
-- Appium instalado globalmente ou via dependências do projeto.
+- Node.js installed.
+- Android Studio / Emulator configured.
+- Appium installed globally or via project dependencies.
 
-## Instalação
+## Installation
 
 ```bash
 npm install
 ```
 
-## Como Executar
+## How to Run
 
-Para iniciar o Appium e rodar os testes no Android:
+To start Appium and run tests on Android:
 
 ```bash
 npm run e2e:android
 ```
 
-Ou separadamente:
+Alternatively, run them separately:
 
-1. Iniciar Appium:
+1. **Start Appium:**
    ```bash
    npm run start-appium
    ```
 
-2. Rodar testes WDIO:
+2. **Run WDIO Tests:**
    ```bash
    npm run wdio
    ```
 
-## Scripts Disponíveis
+## Available Scripts
 
-- `start-appium`: Inicia o servidor Appium com CORS permitido.
-- `wdio`: Executa os testes do WebdriverIO.
-- `e2e:android`: Script PowerShell para automatizar a limpeza, inicialização do Appium e execução dos testes.
+- `start-appium`: Starts the Appium server with CORS enabled.
+- `wdio`: Executes WebdriverIO tests.
+- `e2e:android`: A PowerShell script that automates cleanup, starts Appium, and runs the test suite.
