@@ -16,6 +16,8 @@ This project is a mobile test automation framework using **Appium**, **Webdriver
 - Node.js installed.
 - Android Studio / Emulator configured.
 - Appium installed globally or via project dependencies.
+- **Android Demo App**: The tests are designed for the WebdriverIO Native Demo App. You can download version `v2.2.0` from the official [GitHub Releases](https://github.com/webdriverio/native-demo-app/releases/tag/v2.2.0).
+  - Place the downloaded `android.wdio.native.app.v2.2.0.apk` file inside the `apps/` directory.
 
 ## Installation
 
