@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "commonjs",
+    "types": [
+      "node",
+      "webdriverio",
+      "@wdio/globals/types",
+      "@wdio/mocha-framework" // Add this if you are using Mocha
+    ],
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true
+  }
+}
