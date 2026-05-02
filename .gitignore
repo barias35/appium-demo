@@ -23,5 +23,6 @@ Thumbs.db
 .cache/
 logs/
 errorShots/
+apps/*.apk
 
 apps/
