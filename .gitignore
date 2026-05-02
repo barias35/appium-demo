@@ -23,6 +23,7 @@ Thumbs.db
 .cache/
 logs/
 errorShots/
-apps/*.apk
 
-apps/
+# Apps
+apps/*.apk
+!apps/.gitkeep
